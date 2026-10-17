@@ -1,15 +1,23 @@
+import java.util.Scanner;
+
+
+
+
 public class USACOBronzePractice {
     public static void main(String[] args) {
-         //final printint
+         //final printing
+         Scanner scanner = new Scanner(System.in);
          int num[] = {6, 3, 8, 2, 5, 7, 4};
-         int l = 0;
-         int r = 4;
+         System.out.println("Enter l: ");
+         int l = scanner.nextInt();
+         System.out.println("Enter r: ");
+         int r = scanner.nextInt();
          int sum1 = 0;
          
          for(int i = l;i<r;i++){
             sum1 += num[i];
          }
-         System.out.println("The sum of the first query is: " + sum1);
+         System.out.println("Query Sum = " + sum1);
 
     }
 
