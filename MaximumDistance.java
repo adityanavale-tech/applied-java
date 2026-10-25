@@ -34,14 +34,15 @@ public class MaximumDistance {
             distanceArray[i] = distance;
             if (distanceArray[i] > max_distace) max_distace = distanceArray[i];
 
-            System.out.println(distance);
+            System.out.println("Distance " + i + " " + distance);
         }
+
 
         System.out.println(Arrays.toString(xCorrdinates));
         System.out.println(Arrays.toString(yCorrdinates));
         System.out.println("Amount of Lines = " + choose);
-        System.out.println(Arrays.toString(distanceArray));
         System.out.println("Max Distance(Not Optimized..Yet: " + max_distace);
 
+    scanner.close();
     }
 }
