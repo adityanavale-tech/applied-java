@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class Main {
+public class MaximumDistance {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
